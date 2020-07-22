@@ -11,7 +11,7 @@ public class City {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String nome;
+	private String name;
 	private String latitude;
 	private String longitude;
 	
@@ -28,10 +28,10 @@ public class City {
 		this.longitude = longitude;
 	}
 	public String getNome() {
-		return nome;
+		return name;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNome(String name) {
+		this.name = name;
 	}
 	public Long getId() {
 		return id;
